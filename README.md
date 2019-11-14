@@ -1,6 +1,6 @@
 # rl filestructure 
 
-## Architecture
+## Agents
 Contain code for different architectures used by the group. 
 Will import into main.py files in individual folders for experiments locally
     
