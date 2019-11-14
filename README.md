@@ -1,7 +1,9 @@
 # rl filestructure 
 
 ## Architecture
-Contain code for different architectures used by the group. Will import into main.py files in individual folders for experiments locally
+Contain code for different architectures used by the group. 
+Will import into main.py files in individual folders for experiments locally
+    
     - Actor Critic/
     - Episodic Control/
     - ... 
