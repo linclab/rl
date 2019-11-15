@@ -165,7 +165,7 @@ class TabularSRAgent():
             y, x = self.ind2xy(i)
             x = x * cs + cs//2
             y = y * cs + cs//2
-            draw.text([x-cs/3, y-cs/3], "{:.2f}".format(agent.Mpi[s, i]), font=fnt, fill="blue")
+            draw.text([x-cs/3, y-cs/3], "{:.2f}".format(self.Mpi[s, i]), font=fnt, fill="blue")
                 
         plt.imshow(img)
         plt.title('M(s,:) for s = ' + str(s))
