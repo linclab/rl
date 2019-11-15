@@ -4,8 +4,8 @@ Code for running tabular SR agent on the gridworld.
 
 # Loading required libraries
 import sys
-sys.path.insert(0, '../environments/')
-sys.path.insert(0, '../architectures/')
+sys.path.insert(0, '../../environments/')
+sys.path.insert(0, '../../agents/')
 
 import numpy as np
 import gym
